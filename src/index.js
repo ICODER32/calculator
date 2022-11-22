@@ -12,7 +12,7 @@ import appRoutes from './routes/index.route.js';
 import { prisma } from './helpers/singleExport.helper.js';
 
 
-const PORT = process.env.SERVER_PORT || 3100;
+const PORT = process.env.PORT || 3100;
 const corsOptions = {
 	origin: (origin, callback) => {
 		if (true) {
